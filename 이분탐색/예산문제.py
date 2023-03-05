@@ -30,8 +30,12 @@ while low <= high:
         high = mid - 1
 
 # 출력, 출력은 지방이 요청한거 참고해서 최종 정부가 가진 돈을 지방에게 나눠 줬을때 지방이 받은 최대값임.
-answer = -1
-for request in requests:
-    tmp = min(request,choice_upper_bound)
-    answer = max(answer,tmp)
+# 수정 최종 풀이
+answer = min(choice_upper_bound,max(requests))
 print(answer)
+
+#answer = -1
+#for request in requests:
+#    tmp = min(request,choice_upper_bound)
+#    answer = max(answer,tmp)
+#print(answer)
