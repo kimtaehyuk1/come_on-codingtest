@@ -5,7 +5,7 @@
 for _ in range(int(input())):
     stk = []
     isVPS = True
-    for ch in input():
+    for ch in input(): 
         if ch == '(':
             stk.append(ch)
         else:
@@ -19,3 +19,19 @@ for _ in range(int(input())):
         isVPS = False
 
     print('YES' if isVPS else 'No')
+
+
+# 범 풀이
+def sol(sentence):
+    answer = []
+    for elem in sentence:
+        answer.append(elem)
+        if len(answer) >= 2:
+                if answer[-1] == ")" and answer[-2] == "(":
+                        answer.pop()
+                        answer.pop()
+
+    if len(answer) == 0:
+        return 'YES'
+    else:
+        return 'NO'
