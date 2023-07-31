@@ -8,5 +8,8 @@
 # for i in range(1,2):
 #     print(i)
 
-print(10/4)
-print(10//4)
+# print(10/4)
+# print(10//4)
+
+board = [input() for _ in range(4)]
+print(board)
