@@ -20,7 +20,7 @@ def is_possible(mid):
 
 
 while lo <= hi:
-    if is_possible(mid):
+    if is_possible(mid): # 함수안에서 True or False 반환하도록하는 함수 만들어준느게 파라메트릭 서치인데 여기 내용이 어떻게 달라지는것이다.
         lo = mid + 1
         ans = mid
     else:
