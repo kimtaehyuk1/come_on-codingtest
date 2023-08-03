@@ -59,11 +59,13 @@ def backtracking(y, x):
         if is_possible(y, x, sz):
             # 가능하면 색종이 덮는다
             mark(y, x, sz, 0) # 0으로 덮는다
+            #print(board)
             # 다음좌표로 진행해보고 ---> 이건 1이였을때 다음 좌표 접근해야지 다시 함수들어와서 다음께1인지 0인지 다시 보지
             backtracking(y,x+1)
-            # 가면서 sz 마다 셀거 세면서 센거 원상복구해줘야 딴 sz이 for 돌면서 셀거니까
+            #print(board)
+            # 원상복구
             mark(y, x, sz, 1)
-
+            print(board)
 
 # x좌표가 10되는순간 다음줄로 넘어가고
 
