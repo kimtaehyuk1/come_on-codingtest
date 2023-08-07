@@ -9,6 +9,19 @@ for ch in s:
     else:
         c[ch] = 1
 
+
+# c = dict() # 'A' : 2  알파벳 종류와 몇개 사용됬는지
+# s = input()
+# for ch in s:
+#     if ch in c:
+#         c[ch] += 1
+#     else:
+#         c[ch] = 1
+# 위의 것을 대신하는게 from collections import Counter
+# c = Counter(input() 이 딕셔너리에 담아준느 부분을 대신 해준다
+
+
+
 # 한번에 바로 할랑게 집중
 # 문자가 홀수인지 짝수인지 검사 그리고 홀수개가 1개 초과면, 미안출력
 if sum(i % 2 for i in c.values()) > 1: # 여기서 3 이나오면 홀수가 3개 있다는거
@@ -26,5 +39,5 @@ else: # 팰린드롬 만들기
             break
 
     ans += ''.join(reversed(half))
-    
+
     print(ans)

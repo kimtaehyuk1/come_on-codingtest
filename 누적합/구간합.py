@@ -18,7 +18,7 @@ import sys
 # 입력
 N, M = map(int, sys.stdin.readline().split())
 a = list(map(int, sys.stdin.readline().split()))  #개수 N개인 수 입력 받기
-
+# a = [input() for _ in range(N)]
 # 누적합 구하기
 
 # psum list만들기

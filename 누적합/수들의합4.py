@@ -16,18 +16,28 @@ count = {} # count[key] = 내앞에 psum값이 key인것의 개수 쉽게 구하
 answer = 0
 
 # 우선 풀이과정 먼제 이해하고 밑에는 flow 타보기
-for i in range(N):
-    goal = psum[i] - M  # 그림에서 보다시피, M(목표값) = psum[i] - goal (예를들어 psum[i]값이 3이면 전꺼봤을때 1일 놈 찾아야된다. => goal 개수 2개)
+# for i in range(N):
+#     goal = psum[i] - M  # 그림에서 보다시피, M(목표값) = psum[i] - goal (예를들어 psum[i]값이 3이면 전꺼봤을때 1일 놈 찾아야된다. => goal 개수 2개)
 
-    if goal in count:
-        answer += count[goal] #count안에 goal이 들어있는 수만큼 더하는거
+#     if goal in count:
+#         answer += count[goal] #count안에 goal이 들어있는 수만큼 더하는거
 
-    if goal  == 0:
-        answer += 1
+#     if goal  == 0:
+#         answer += 1
         
-    if psum[i] not in count:
-        count[psum[i]] = 0  #초기화
+#     if psum[i] not in count:
+#         count[psum[i]] = 0  #초기화
 
-    count[psum[i]] += 1
+#     count[psum[i]] += 1
+
+# print(answer)
+
+
+# ------------------------------------------------------------내가 더 간단하게 풀어보겟어
+
+for i in range(N):
+    goal = psum[i] - M
+    if goal in psum:
+        answer += 1
 
 print(answer)
