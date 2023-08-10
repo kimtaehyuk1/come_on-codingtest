@@ -4,7 +4,17 @@
 # for k in m:
 #     print(k,m[k])
 
-psum = [1,2,3,4,5]
+# A = [2,7,3,4,1]
 
-if 1 in psum:
-    print('안녕하세요')
+# I = list(range(5))
+
+# I = sorted(I, key= lambda i: A[i])
+
+# print(I)
+
+
+N, K = map(int, input().split())
+coins = [int(input()) for _ in range(N)]
+coins.reverse()
+
+print(coins)
