@@ -13,8 +13,12 @@
 # print(I)
 
 
-N, K = map(int, input().split())
-coins = [int(input()) for _ in range(N)]
-coins.reverse()
+# N, K = map(int, input().split())
+# coins = [int(input()) for _ in range(N)]
+# coins.reverse()
 
-print(coins)
+# print(coins)
+
+
+for i in range(3,1,-1):
+    print(i)
