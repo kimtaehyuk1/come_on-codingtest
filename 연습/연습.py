@@ -20,5 +20,23 @@
 # print(coins)
 
 
-for i in range(3,1,-1):
-    print(i)
+# for i in range(7,7):
+#     print(i)
+
+input = list(input())
+stk = []
+cnt = 0
+
+
+for ch in range(len(input)): 
+    if input[ch] == '(':
+        stk.append('(')
+    else:
+        if input[ch-1] == '(':    #전껏이 뭐였냐 처리
+            stk.pop()
+            cnt += len(stk)
+        else:
+            stk.pop()
+            cnt += 1
+
+print(cnt)
