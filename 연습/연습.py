@@ -23,20 +23,13 @@
 # for i in range(7,7):
 #     print(i)
 
-input = list(input())
-stk = []
-cnt = 0
+# from itertools import combinations
+
+# list = [(1,2), (6,8),(3,4),(1,4)]
 
 
-for ch in range(len(input)): 
-    if input[ch] == '(':
-        stk.append('(')
-    else:
-        if input[ch-1] == '(':    #전껏이 뭐였냐 처리
-            stk.pop()
-            cnt += len(stk)
-        else:
-            stk.pop()
-            cnt += 1
+# for combi in combinations(list,3):
+#     print(combi)
 
-print(cnt)
+# print('김태혁', end='')
+# print('김태준')
