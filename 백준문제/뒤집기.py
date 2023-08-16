@@ -2,7 +2,7 @@
 import sys
 intput = sys.stdin.readline
 
-# 리스트로 만들어서 1뒤집을때랑 0뒤집을때랑 두개 비교후 작은거 ans출력
+
 S = list(input())
 cnt = 0
 

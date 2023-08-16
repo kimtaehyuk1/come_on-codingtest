@@ -33,3 +33,11 @@
 
 # print('김태혁', end='')
 # print('김태준')
+
+# N, M = map(int, input().split())
+# board = [input() for _ in range(N)]
+
+# print(board[0][1])
+
+dy = (0,1,0,-1)
+print(dy[-2])
