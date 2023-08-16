@@ -39,5 +39,14 @@
 
 # print(board[0][1])
 
-dy = (0,1,0,-1)
-print(dy[-2])
+# dy = (0,1,0,-1)
+# print(dy[-2])
+
+numbers = [1, 2, 4, 5]
+
+for num in numbers:
+    if num == 3:
+        print("숫자 3을 찾았습니다.")
+        break
+else:
+    print("숫자 3을 찾지 못했습니다.")

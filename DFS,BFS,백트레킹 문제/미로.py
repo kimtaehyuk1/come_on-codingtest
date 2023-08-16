@@ -4,9 +4,9 @@
 
 from collections import deque
 
-
-dy = (0,1,0,-1)
-dx = (1,0,-1,0)
+#    북 동 남 서
+dy = (-1,0,1,0)
+dx = (0,1,0,-1)
 N, M = map(int, input().split())
 board = [input() for _ in range(N)]  # 이거는 ['101111', '101010', '101011', '111011'] 이런식으로 리스트에 문자열로 담는거임
 
