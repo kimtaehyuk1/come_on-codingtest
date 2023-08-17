@@ -77,6 +77,15 @@
 
 # print(answers)
 
-ans = [[0, 3], [4, 4], [6, 6]]
-ans = sorted(ans, key=lambda x: (x[1]-x[0], x[0]))
-print(ans)
+# ans = [[0, 3], [4, 4], [6, 6]]
+# ans = sorted(ans, key=lambda x: (x[1]-x[0], x[0]))
+# print(ans)
+
+from collections import deque 
+#   북 동 남 서
+dy = [-1, 0, 1, 0]
+dx = [0, 1, 0, -1]
+
+
+# 아이디어: 레버까지 bfs가고 레버에서 EXIT까지 bfs로 간다.
+
