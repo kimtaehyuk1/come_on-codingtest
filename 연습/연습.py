@@ -80,11 +80,16 @@
 # ans = [[0, 3], [4, 4], [6, 6]]
 # ans = sorted(ans, key=lambda x: (x[1]-x[0], x[0]))
 # print(ans)
-list = ["119", "97674223", "1195524421"]
+# list = ["119", "97674223", "1195524421"]
 
-hash_map = {}
-for phone_number in list:
-    hash_map[phone_number] = 1
+# hash_map = {}
+# for phone_number in list:
+#     hash_map[phone_number] = 1
 
-for key in hash_map.keys():
-    print(key)
+# for key in hash_map.keys():
+#     print(key)
+
+from collections import deque
+list = deque([])
+#list.append(1)
+print(len(list))
