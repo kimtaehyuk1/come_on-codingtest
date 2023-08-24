@@ -23,15 +23,6 @@ def solution(bridge_length, weight, truck_weights):
 
 
 
-
-
-
-
-
-
-
-
-
 # from collections import deque
 
 # bridge_length = 100
