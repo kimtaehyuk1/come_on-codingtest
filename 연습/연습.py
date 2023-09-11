@@ -89,7 +89,18 @@
 # for key in hash_map.keys():
 #     print(key)
 
-from collections import deque
-list = deque([])
-#list.append(1)
-print(len(list))
+# from collections import deque
+# list = deque([])
+# #list.append(1)
+# print(len(list))
+
+# park = ["OSO","OOO","OXO","OOO"]
+
+
+# for i,v in enumerate(park):
+#     for j,k in enumerate(v):
+#         print(v,k)
+
+
+routes = ["E 2","S 2","W 1"]
+print(routes[0][1])
