@@ -102,5 +102,16 @@
 #         print(v,k)
 
 
-routes = ["E 2","S 2","W 1"]
-print(routes[0][1])
+
+# tmp = ['b', 'c', 'd', 'e', 'f']
+# skip = "wbqd"
+# sum = 0
+# # tmp 리스트에서 skip 문자열에 포함된 문자 개수 세기
+# for i in tmp:
+#     if i in skip:
+#         sum += 1
+
+# print(sum)
+real = chr(ord('a')+1)
+
+print(real)
