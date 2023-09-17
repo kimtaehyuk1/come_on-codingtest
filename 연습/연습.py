@@ -112,6 +112,12 @@
 #         sum += 1
 
 # print(sum)
-real = chr(ord('a')+1)
+# real = chr(ord('a')+1)
 
-print(real)
+# print(real)
+
+from itertools import combinations
+
+items = [2,1,3,4,1]
+for combi in combinations(items,2):
+    print(combi)
