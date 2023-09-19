@@ -116,8 +116,18 @@
 
 # print(real)
 
-from itertools import combinations
+# from itertools import combinations
 
-items = [2,1,3,4,1]
-for combi in combinations(items,2):
-    print(combi)
+# items = [2,1,3,4,1]
+# for combi in combinations(items,2):
+#     print(combi)
+
+participant = ["mislav", "stanko", "mislav", "ana"]
+completion = 	["stanko", "ana", "mislav"]
+
+participant.sort()
+completion.sort()
+
+for i, j in zip(participant,completion):
+    print(i,j)
+    
