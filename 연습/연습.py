@@ -122,12 +122,12 @@
 # for combi in combinations(items,2):
 #     print(combi)
 
-participant = ["mislav", "stanko", "mislav", "ana"]
-completion = 	["stanko", "ana", "mislav"]
+# participant = ["mislav", "stanko", "mislav", "ana"]
+# completion = 	["stanko", "ana", "mislav"]
 
-participant.sort()
-completion.sort()
+# participant.sort()
+# completion.sort()
 
-for i, j in zip(participant,completion):
-    print(i,j)
-    
+# for i, j in zip(participant,completion):
+#     print(i,j)
+
