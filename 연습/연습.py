@@ -131,3 +131,14 @@
 # for i, j in zip(participant,completion):
 #     print(i,j)
 
+# t = "3141592"
+# print(type(t[0:3]))
+
+# one = [1,2,3,4,5] * 2000
+# two = [2,1,2,3,2,4,2,5] * 1250
+# three = [3,3,1,1,2,2,4,4,5,5] * 1000
+
+
+# print(len(three))
+
+my_dict = {'A': 10, 'B': 5, 'C': 20, 'D': 15}
