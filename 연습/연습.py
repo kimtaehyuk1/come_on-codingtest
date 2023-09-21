@@ -141,4 +141,15 @@
 
 # print(len(three))
 
-my_dict = {'A': 10, 'B': 5, 'C': 20, 'D': 15}
+# list = [1, 5, 2, 6, 3, 7, 4]
+# print(list[1:5])
+
+# from itertools import combinations
+
+# d = [1,3,2,5,4]
+
+# for combi in combinations(d,3):
+#     print(sum(combi))
+
+for i in range(10,1,-1):
+    print(i)
