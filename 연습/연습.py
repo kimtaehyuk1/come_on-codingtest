@@ -154,5 +154,25 @@
 # for i in range(10,1,-1):
 #     print(i)
 
-numbers = [3, 2, 2, 2, 1]
-print(sum(numbers))
+# numbers = [3, 2, 2, 2, 1]
+# print(sum(numbers))
+
+# s = "try hello world"
+# s_list = [i for i in s.split()]
+# print(s_list)
+
+s= "try hello world"
+
+def solution(s):
+    answer = ''
+    new_list = s.split(' ')
+    for i in new_list:
+        for j in range(len(i)):
+            if j % 2 == 0:
+                answer += i[j].upper()
+            else:
+                answer += i[j].lower()
+        answer+= ' '
+    return answer[0:-1]
+
+print(solution(s))
