@@ -151,5 +151,8 @@
 # for combi in combinations(d,3):
 #     print(sum(combi))
 
-for i in range(10,1,-1):
-    print(i)
+# for i in range(10,1,-1):
+#     print(i)
+
+numbers = [3, 2, 2, 2, 1]
+print(sum(numbers))
