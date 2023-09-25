@@ -161,18 +161,37 @@
 # s_list = [i for i in s.split()]
 # print(s_list)
 
-s= "try hello world"
+# s= "try hello world"
 
-def solution(s):
-    answer = ''
-    new_list = s.split(' ')
-    for i in new_list:
-        for j in range(len(i)):
-            if j % 2 == 0:
-                answer += i[j].upper()
-            else:
-                answer += i[j].lower()
-        answer+= ' '
-    return answer[0:-1]
+# def solution(s):
+#     answer = ''
+#     new_list = s.split(' ')
+#     for i in new_list:
+#         for j in range(len(i)):
+#             if j % 2 == 0:
+#                 answer += i[j].upper()
+#             else:
+#                 answer += i[j].lower()
+#         answer+= ' '
+#     return answer[0:-1]
 
-print(solution(s))
+# print(solution(s))
+
+# piro = [[1,1,1],[5,1,1],[25,5,1]]
+# print(piro[1][0])
+
+# from collections import deque
+
+# minerals = ["diamond", "diamond", "diamond", "iron", "iron", "diamond", "iron", "stone"]
+
+# minerals_deque = deque()
+# for i in minerals:
+#     minerals_deque.append(i)
+
+# tmp = minerals_deque.popleft()
+
+# print(tmp)
+
+ele = [7,9,1,1,4]
+tmp = sum(ele[:2])
+print(tmp)

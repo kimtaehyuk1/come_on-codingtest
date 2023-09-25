@@ -38,6 +38,6 @@ def solution(n):
             answer += 1
             n -= 1
 
-    return print(answer)
+    return answer
 
 solution(5000)
