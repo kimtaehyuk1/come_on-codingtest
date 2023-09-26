@@ -192,6 +192,27 @@
 
 # print(tmp)
 
-ele = [7,9,1,1,4]
-tmp = sum(ele[:2])
-print(tmp)
+# ele = [7,9,1,1,4]
+# tmp = sum(ele[:2])
+# print(tmp)
+
+# from collections import Counter
+
+# numbers = [1, 2, 3, 4, 1, 2, 2, 3, 3, 3]
+
+# numbers_counts = Counter(numbers)
+
+# # print(max(numbers_counts.values()))
+
+# for number, count in numbers_counts.items():
+#     if count == max(numbers_counts.values()):
+#         print(number)
+
+a = 78
+b = bin(a)
+
+print(b[2:].count('1'))
+
+
+
+
