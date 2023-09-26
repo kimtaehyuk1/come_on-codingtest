@@ -208,11 +208,34 @@
 #     if count == max(numbers_counts.values()):
 #         print(number)
 
-a = 78
-b = bin(a)
+# a = 78
+# b = bin(a)
 
-print(b[2:].count('1'))
+# print(b[2:].count('1'))
 
 
+from collections import deque
+
+
+
+def colletion(n):
+        stk = []
+        isTrue = True
+        for ch in n:
+            if ch == '[' or '(' or '{':
+                stk.append(ch)
+            if ch == ']' or ')' or '}':
+                if stk:
+                    stk.pop()
+                else:
+                    isTrue = False
+                    break
+        if stk:
+            isTrue = False
+
+        return 1 if isTrue else 0
+
+n = '[]()'
+print(colletion(n))
 
 
