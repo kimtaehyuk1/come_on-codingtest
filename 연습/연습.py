@@ -214,28 +214,36 @@
 # print(b[2:].count('1'))
 
 
+# from collections import deque
+
+
+
+# def colletion(n):
+#         stk = []
+#         isTrue = True
+#         for ch in n:
+#             if ch == '[' or '(' or '{':
+#                 stk.append(ch)
+#             if ch == ']' or ')' or '}':
+#                 if stk:
+#                     stk.pop()
+#                 else:
+#                     isTrue = False
+#                     break
+#         if stk:
+#             isTrue = False
+
+#         return 1 if isTrue else 0
+
+# n = '[]()'
+# print(colletion(n))
+
 from collections import deque
+list2 = [1]
+dq = deque(list2)
+# dq2 = list(dq)[:2]
+print(len(dq))
 
 
-
-def colletion(n):
-        stk = []
-        isTrue = True
-        for ch in n:
-            if ch == '[' or '(' or '{':
-                stk.append(ch)
-            if ch == ']' or ')' or '}':
-                if stk:
-                    stk.pop()
-                else:
-                    isTrue = False
-                    break
-        if stk:
-            isTrue = False
-
-        return 1 if isTrue else 0
-
-n = '[]()'
-print(colletion(n))
-
-
+# list = [1,2,3,4,5]
+# print(list[:2][0])
