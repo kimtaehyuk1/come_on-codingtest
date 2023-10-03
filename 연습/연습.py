@@ -238,12 +238,18 @@
 # n = '[]()'
 # print(colletion(n))
 
-from collections import deque
-list2 = [1]
-dq = deque(list2)
-# dq2 = list(dq)[:2]
-print(len(dq))
+# from collections import deque
+# list2 = [1]
+# dq = deque(list2)
+# # dq2 = list(dq)[:2]
+# print(len(dq))
 
 
 # list = [1,2,3,4,5]
 # print(list[:2][0])
+
+targets = [[4,5],[4,8],[10,14],[11,13],[5,12],[3,7],[1,4]]
+
+targets.sort(key = lambda x : x[1])
+
+print(targets)
