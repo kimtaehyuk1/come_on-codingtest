@@ -1,11 +1,15 @@
 def solution(targets):
     answer = 0
+    # [s,e]형태에서 e를 기준으로 오름차순 정렬
+    targets.sort(key = lambda x : x[1])
+    # 초기세팅
+    e = 0
+    # 정렬된거에서 하나씩 비교하면서 
+    for target in targets:
+        if e <= target[0]:
+            answer += 1
+            e = target[1]
     return answer
-
-
-
-
-
 
 
 
