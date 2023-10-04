@@ -262,12 +262,23 @@
 
 # print(dp)
 
-from itertools import permutations
+# from itertools import permutations
 
-numbers = '17'
-numbers2 = [num for num in numbers]
+# numbers = '17'
+# numbers2 = [num for num in numbers]
 
 
-for i in range(1,3):
-    a = [''.join(permu) for permu in permutations(numbers2,i)]
-    print(a)
+# for i in range(1,3):
+#     a = [''.join(permu) for permu in permutations(numbers2,i)]
+#     print(a)\
+
+
+# numbers = [3, 30, 34, 5, 9]
+
+# str_numbers = [str(num) for num in numbers]
+# str_numbers.sort(key = lambda i: i*3 , reverse=True)
+# answer = ''.join(str_numbers)
+# print(type(answer))
+
+list = [1,2]*4
+print(list)
