@@ -248,8 +248,26 @@
 # list = [1,2,3,4,5]
 # print(list[:2][0])
 
-targets = [[4,5],[4,8],[10,14],[11,13],[5,12],[3,7],[1,4]]
+# targets = [[4,5],[4,8],[10,14],[11,13],[5,12],[3,7],[1,4]]
 
-targets.sort(key = lambda x : x[1])
+# targets.sort(key = lambda x : x[1])
 
-print(targets)
+# print(targets)
+
+# list = [-1] * 10
+
+# print(list)
+
+# dp = [float('inf')] * 10
+
+# print(dp)
+
+from itertools import permutations
+
+numbers = '17'
+numbers2 = [num for num in numbers]
+
+
+for i in range(1,3):
+    a = [''.join(permu) for permu in permutations(numbers2,i)]
+    print(a)

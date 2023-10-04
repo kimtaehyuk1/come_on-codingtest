@@ -26,7 +26,6 @@ def solution(want, number, discount):
     return answer
 
 
-
 want = ["apple"]
 number = [10]
 discount = ["banana", "banana", "banana", "banana", "banana", "banana", "banana", "banana", "banana", "banana"]
