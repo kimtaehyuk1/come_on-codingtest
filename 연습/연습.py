@@ -294,5 +294,8 @@
 # number.sort()
 # print(number)
 
-lst = [1,4,5,5]
-print(lst.count(5))
+# lst = [1,4,5,5]
+# print(lst.count(5))
+
+list = [1,20,2,1,2]
+print(list[-4:])
