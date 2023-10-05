@@ -280,5 +280,16 @@
 # answer = ''.join(str_numbers)
 # print(type(answer))
 
-list = [1,2]*4
-print(list)
+# list = [1,2]*4
+# print(list)
+# from itertools import permutations
+# a = '17'
+# list = [num for num in a]
+# for i in range(1,len(a)+1):
+#     a = [permu for permu in permutations(list,i)]
+#     print(a)
+
+number = "4177252841"
+number = list(number[:5])
+number.sort()
+print(number)
