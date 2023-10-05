@@ -289,7 +289,10 @@
 #     a = [permu for permu in permutations(list,i)]
 #     print(a)
 
-number = "4177252841"
-number = list(number[:5])
-number.sort()
-print(number)
+# number = "4177252841"
+# number = list(number[:5])
+# number.sort()
+# print(number)
+
+lst = [1,4,5,5]
+print(lst.count(5))
